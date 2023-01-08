@@ -1,3 +1,7 @@
+p, ul, ol {
+    font-family: cursive;
+    font-style: italic;
+}
 h1, h3.descr, p {
     text-align: center;
 }
@@ -8,12 +12,7 @@ img {
     margin-right: auto;
     display: block;
 }
-ul, ol {
-   font-weight: 500;
-}
-p {
-    font-style: italic;
-}
+
 .back {
     font-size: 14px;
     color: brown;
