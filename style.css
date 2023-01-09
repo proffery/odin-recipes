@@ -3,37 +3,43 @@ body {
     font-family: cursive;
     font-style: italic;
     text-align: center;
+    border: 1px dotted cadetblue;
+    margin: 16px;
 }
 .main {
-    display: inline-block;
+    display: flex;
     background: #fff;
     padding: 16px;
-    border: 1px dotted cadetblue;
     margin: auto;
 }
+.main > * {
+    flex: 1;
+}
 .pic {
-    display: inline-block;
+    display: flex;
     background: #e3f4ff;
     padding: 16px;
     border: 1px dotted cadetblue;
+    flex: 2;
 }
 .descr {
     font-size: 24px;
+    background-color: white;
 }
 ul, ol {
     display: inline-block;
     text-align: left;
 }
-h1, h3.descr, p {
+h1, h3, p {
     text-align: center;
     margin: 16px;
     margin-top: 0px;
 }
 img {
+    display: flex;    
     margin: auto;
     height: auto;
     width: 400px;
-    display: inline-block;
 }
 .ingred {
     margin: auto;
@@ -41,6 +47,6 @@ img {
     text-align: left;
 }
 .back {
-    font-size: 14px;
-    color: brown;
+    background-color: white;
+    border: 0px;
 }
