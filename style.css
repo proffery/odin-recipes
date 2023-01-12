@@ -1,19 +1,21 @@
 body {
+    display: flex;
+    flex-direction: column;
+    min-width: 650px;
     background: #eee;
     font-family: cursive;
     font-style: italic;
     text-align: center;
-    border: 1px dotted cadetblue;
-    margin: 16px;
+    align-items: center;
+    justify-content: center;
 }
 .main {
     display: flex;
-    background: #fff;
-    padding: 16px;
-    margin: auto;
-}
-.main > * {
-    flex: 1;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
 }
 .pic {
     display: flex;
@@ -24,16 +26,15 @@ body {
 }
 .descr {
     font-size: 24px;
-    background-color: white;
+    background: white;
 }
 ul, ol {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     text-align: left;
 }
 h1, h3, p {
     text-align: center;
-    margin: 16px;
-    margin-top: 0px;
 }
 img {
     display: flex;    
@@ -47,6 +48,21 @@ img {
     text-align: left;
 }
 .back {
-    background-color: white;
-    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    border: 1px dotted cadetblue;
+    margin-bottom: 52px;
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
