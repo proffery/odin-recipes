@@ -6,9 +6,7 @@
     font-family: GloriaHallelujah-Regular;
     src: url(./fonts/GloriaHallelujah-Regular.ttf);
 }
-html {
-    border: 1cm;
-}
+
 body {
     display: flex;
     flex-direction: column;
