@@ -21,13 +21,14 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 350%;
+    overflow-x: hidden;
 }
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1vw;
+    margin-bottom: 1vw;
     max-width: max(650px, 80vw);
 }
 
@@ -102,7 +103,7 @@ div p:first-child::first-letter {
 a {
     text-decoration: none;
     color: black;
-    transition: all .5s;
+    transition: all .2s;
 }
 
 .back {
