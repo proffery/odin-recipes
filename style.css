@@ -94,9 +94,9 @@ div h1:first-child {
 }
 
 div p:first-child::first-letter {
-    font-size: clamp(24px, 5vw, 10rem);
+    font-size: clamp(18px, 3vw, 9rem);
     font-family: first-letter, cursive;
-    letter-spacing: .2em;
+    letter-spacing: .15em;
 
 }
 a {
